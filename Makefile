@@ -3,6 +3,8 @@
 default: ~/.vimrc
 
 ~/.vimrc: ~/.vim/bundle/vundle vimrc
+	mkdir ~/.vim/tmp
+	mkdir ~/.vim/backup
 	cp vimrc ~/.vimrc
 	vim +BundleInstall +qall
 
