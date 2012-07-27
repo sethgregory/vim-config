@@ -80,7 +80,6 @@ Bundle 'tomtom/tlib_vim'
 
 " Additional
 Bundle 'taglist-plus'
-Bundle 'molokai'
 Bundle 'FuzzyFinder'
 Bundle 'jQuery'
 Bundle 'vim-octopress'
@@ -96,7 +95,6 @@ Bundle 'xhtml.vim'
 Bundle 'Super-Shell-Indent'
 Bundle 'Markdown-syntax'
 Bundle 'go.vim'
-Bundle 'github-theme'
 Bundle 'ZenCoding.vim'
 Bundle 'git://github.com/jimmyhchan/dustjs.vim.git'
 Bundle 'https://github.com/lunaru/vim-less.git'
@@ -148,7 +146,7 @@ endif
 " Color
 " ---------------
 set background=dark
-colorscheme molokai
+colorscheme jellybeans
 
 " ---------------
 " Backups
