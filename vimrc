@@ -613,8 +613,3 @@ endfunction
 
 command! QuickSpellingFix call QuickSpellingFix()
 nmap <silent> <leader>z :QuickSpellingFix<CR>
-
-" --------------
-"  Change the stupid gray background
-"  -------------
-highlight Normal ctermbg=None
